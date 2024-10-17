@@ -1,0 +1,18 @@
+id,type_id,name,price,image,goods_info
+1,1,"Redmi Book 16 2024",3999,/static/images/computer/com1.png,"商品介绍：47W 满血性能 | 小米澎湃智联"
+2,1,"Redmi Book Pro 14 2024",4999,/static/images/computer/com2.png,"商品介绍：Redmi Book Pro 14 2024|Intel® Core™ Ultra 5 125H |能效核最大睿频频率 3.6GHz |性能核最大睿频频率 4.5GHz |14 核 18 线程处理器 |三级缓存 18MB"
+3,1,"Redmi Book Pro 16 2024",6399,/static/images/computer/com3.png,"商品介绍：Redmi Book Pro 16 2024|16"" 显示屏，16:10显示比例 |3072 × 1920分辨率| Max 165Hz支持DRR动态刷新率切换（60/120Hz）"
+4,1,"Redmi G Pro 游戏本 2024",8999,/static/images/computer/com4.png,"商品介绍：Redmi G Pro 游戏本 2024 | 第 14 代英特尔® 酷睿™ i9-14900HX 处理器 |NVIDIA® GeForce RTX™ 4060 笔记本电脑 GPU |16GB DDR5 5600MT/s"
+5,1,"Redmi G Pro 游戏本 2024",8999,/static/images/computer/com4.png,"商品介绍：Redmi G Pro 游戏本 2024 | 第 14 代英特尔® 酷睿™ i9-14900HX 处理器 |NVIDIA® GeForce RTX™ 4060 笔记本电脑 GPU |16GB DDR5 5600MT/s"
+6,2,"小米电视A65竞技版 65英寸",2399,/static/images/tv/tv4.png,商品介绍：120Hz全面屏，疾速升级
+7,2,"小米电视大师86英寸Mini LED",14999,/static/images/tv/tv3.jpg,"商品介绍：全新自研画质引擎 | 千级分区QD-Mini LED | 2000nits 峰值亮度"
+8,2,"小米电视 S Pro 65 Mini LED 65英寸",4499,/static/images/tv/tv2.png,商品介绍：144Hz超高刷、2200nits峰值亮度、896分区背光
+9,2,"小米电视 S 75 Mini LED 75英寸",4599,/static/images/tv/tv1.png,"商品介绍：Mini LED 512级背光分区、1200nits峰值亮度、4GB+64GB旗舰内存、4K 144Hz超高刷"
+10,3,"Redmi Pad SE",899,/static/images/pad/pad1_1.png,商品介绍：高性价比千元平板｜11英寸高刷护眼大屏｜全金属一体机身｜73.2天超长待机
+11,3,"Xiaomi Pad 6 Max 14",3499,/static/images/pad/pad2_1.png,"商品介绍：14英寸超大屏幕 | 骁龙8+旗舰处理器 | 10000mAh大容量电池 | PC级多任务 工作台 | PC级WPS"
+12,3,"Xiaomi Pad 6 Pro",2299,/static/images/pad/pad4_1.png,"商品介绍：骁龙8+旗舰处理器｜11英寸2.8K护眼屏｜8600mAh 67W快充｜MIUI高效办公体验|骁龙8+旗舰处理器 |11英寸 2.8K 超清护眼屏 |144Hz 7挡可变刷新率"
+13,3,"Xiaomi Pad 6S Pro 12.4",3299,/static/images/pad/pad3.png,"商品介绍：第二代骁龙8 旗舰处理器 | 小米澎湃OS | 12.4"" 3K 高清护眼屏 | 120W 小米澎湃秒充 | Wi-Fi 7 高速连接 | 视频会议工具箱 | 支持触控笔、触控键盘"
+14,4,"Xiaomi 14",4299,/static/images/phone/p4.png,"商品介绍：「4月3日起，首降至高优惠300元！购机至高享24期免息」徕卡光学Summilux镜头｜光影猎人900影像传感器 | 75mm徕卡浮动长焦 | 小米澎湃OS"
+15,4,"Xiaomi MIX Alpha",19999,/static/images/phone/p1_1.jpg,"商品介绍：探索，让未来多一种可能 MIX Alpha 是小米站在 5G时代的起点，设计的一款面向未来的概念手机。"
+16,4,"Xiaomi MIX Fold 2",8999,/static/images/phone/p3.png,"商品介绍：Xiaomi MIX Fold 2 超轻薄折叠机身设计 小米自研微水滴形态转轴 内外双旗舰屏幕｜6.56英寸21:9标准比例外屏｜ 8.02英寸2K+ 超视感屏"
+17,4,"Xiaomi MIX Fold 3",7999,/static/images/phone/p2.jpg,"商品介绍：小米龙骨转轴|徕卡光学全焦段四摄|小米澎湃电池|双E6旗舰屏幕|第二代骁龙8 领先版|大屏交互|智能大屏"

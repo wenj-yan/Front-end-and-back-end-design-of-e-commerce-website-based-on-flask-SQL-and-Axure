@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>理想生活上Xiao mi</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .f_left {
+            float: left;
+        }
+
+        .f_right {
+            float: right;
+        }
+
+        .header {
+            background-color: #333;
+        }
+
+        .container_1 {
+            width: 1226px;
+            margin: 0 auto;
+        }
+
+        .header .menu {
+            float: left;
+            color: white;
+        }
+
+        .header .account {
+            float: right;
+            color: white;
+        }
+
+        .header a {
+            line-height: 40px;
+            font-size: 12px;
+            color: #b0b0b0;
+            background: #333;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .header a:hover {
+            color: white;
+        }
+
+        .sub-header {
+
+            height: 100px;
+        }
+
+        .sub-header .logo {
+            width: 80px;
+        <!-- line-height只针对文字居中，图片不行 --> height: 100px;
+            float: left;
+        }
+
+        .sub-header .logo a {
+            margin-top: 22px;
+            display: inline-block
+        }
+
+        .sub-header .logo img {
+            width: 56px;
+            height: 56px;
+        }
+
+        .sub-header .menu-list {
+            float: left;
+            height: 100px;
+            line-height: 100px;
+        }
+
+        .sub-header .menu-list a {
+            padding: 0 20px;
+            color: #333;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .sub-header .menu-list a:hover {
+            color: #ff6670;
+        }
+
+        .sub-header .search {
+            float: right;
+            height: 100px;
+        }
+
+        .app {
+            position: relative
+        }
+
+        .app .download {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            left: -26px;
+            display: none;
+        }
+
+        .app:hover .download {
+            display: block;
+        }
+
+        .carousel_1 {
+            height: 200px;
+            width: 1220px;
+            margin: 0 auto;
+        }
+
+        .shopping_car {
+            position: fixed;
+            bottom: 80px;
+            left: 1429px;
+            width: 84px;
+            height: 92px;
+            border: 1px solid #f5f5f5;
+        }
+
+        .shopping_car img {
+            width: 30px;
+            height: 30px;
+            margin: 26px 27px 3px;
+        }
+
+        .shopping_car_text {
+            margin: 0 21px 26px;
+            color: #757575;
+            font-size: 13px;
+            text-decoration: none;
+        }
+
+        .shopping_car a:hover {
+            color: #ff6670;
+        }
+
+        .goods_title {
+            width: 1528px;
+            height: 63px;
+            border: 0.1px solid #f0efef;
+
+        }
+
+        .goods_name {
+            width: 208.08px;
+            height: 60px;
+            margin: 1.5px 0;
+            line-height: 60px;
+            font-size: 18px;
+            color: #424242;
+        }
+
+        .goods_info {
+            width: 600px;
+            height: 460px;
+            margin-top: 20px;
+            float: left;
+        }
+
+        .goods_info h2 {
+            height: 36px;
+            width: 600px;
+            font-size: 24px;
+            font-weight: 400;
+            color: #212121;
+        }
+
+
+        .slider_1 {
+            width: 560px;
+            height: 560px;
+            margin-left: 146px;
+            margin-top: 20px;
+            margin-right: 20px;
+            float: left
+        }
+
+        .container_1 a:hover{
+            text-decoration: none;
+        }
+
+    </style>
+
+
+    <link rel="stylesheet" href="/plugins/bootstrap-3.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/plugins/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+<div class="header">
+    <div class="container_1">
+        <div class="menu">
+            <a href="/home" style="margin-right: 20px">小米商城</a>
+            <a href="" class="app">下载app
+                <div class="download">
+                    <img src="/static/images/code.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="account">
+            <a href="/login">登录</a>
+            <a href="/register">注册</a>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+</div>
+<div class="sub-header">
+    <div class="container_1">
+
+        <div class="logo">
+            <!--a是行内标签，不能设置高度和宽度，但可以改为块级标签或者块级、行内结合标签-->
+            <a href="https://www.mi.com/about">
+                <img src="/static/images/logo_mi.png">
+            </a>
+        </div>
+
+        <div class="menu-list">
+            <a href="/phone">Xiaomi手机</a>
+            <a href="/tv">电视</a>
+            <a href="/computer">笔记本</a>
+            <a href="/pad">平板</a>
+        </div>
+        <div class="search"></div>
+        <div style="clear: both"></div>
+
+    </div>
+</div>
+<div class="shopping_car">
+    <img src="/static/images/shopping_car.png" alt="">
+    <a class="shopping_car_text">购物车</a>
+</div>
+
+<div class="goods_title">
+    <div class="container_1">
+        <h2 class="goods_name">
+            Xiaomi MIX Fold 3
+        </h2>
+    </div>
+</div>
+
+
+<div class="slider_1">
+    <img src="/static/images/phone/p2.jpg" alt="">
+</div>
+
+<div class="goods_info">
+    <h2>Xiaomi MIX Fold 3</h2>
+    <div style="height: 200px; width: 600px; line-height: 1.5; color: #b0b0b0;font-size: 20px;  margin-top: 30px ">
+        商品介绍：小米龙骨转轴|徕卡光学全焦段四摄|小米澎湃电池|双E6旗舰屏幕|第二代骁龙8 领先版|大屏交互|智能大屏
+    </div>
+
+    <div style="width:600px; height: 100px; font-size: 20px; color: #ff6700; ">
+        价格：7999元
+    </div>
+    <a href="" style="text-decoration: none">
+        <div style="height: 50px; width: 200px;background: #ff6700; border-radius: 20px; margin-top: 25px">
+            <div style="text-align: center; line-height: 50px; color: white">加入购物车</div>
+        </div>
+    </a>
+
+</div>
+
+
+<!--<a data-v-7f93789e="" data-spm="toolbar.to_top_float.1" href="javascript:void(0);" data-log_code="bid=3212729" class="item backtop active" data-params="&quot;&quot;"><div data-v-7f93789e="" class="icon"><img data-v-7f93789e="" src="//i1.mifile.cn/f/i/2018/home/totop.png" class="static"><img data-v-7f93789e="" src="//i1.mifile.cn/f/i/2018/home/totop_hover.png" class="hover"></div><span data-v-7f93789e="" class="text">回顶部</span></a>-->
+
+
+<script src="/js/jquery-3.7.1.min.js"></script>
+<script src="/plugins/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+
+<script>
+    $(function () {
+        $('.carousel').carousel({
+            interval: 2000
+        })
+    })
+</script>
+
+</body>
+</html>

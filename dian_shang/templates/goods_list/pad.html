@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米平板</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .f_left {
+            float: left;
+        }
+
+        .f_right {
+            float: right;
+        }
+
+        .header {
+            background-color: #333;
+        }
+
+        .container_1 {
+            width: 1226px;
+            margin: 0 auto;
+
+        }
+
+        .header .menu {
+            float: left;
+            color: white;
+        }
+
+        .header .account {
+            float: right;
+            color: white;
+        }
+
+        .header a {
+            line-height: 40px;
+            font-size: 12px;
+            color: #b0b0b0;
+            background: #333;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .header a:hover {
+            color: white;
+        }
+
+        .sub-header {
+
+            height: 100px;
+        }
+
+        .sub-header .logo {
+            width: 80px;
+        <!-- line-height只针对文字居中，图片不行 --> height: 100px;
+            float: left;
+        }
+
+        .sub-header .logo a {
+            margin-top: 22px;
+            display: inline-block
+        }
+
+        .sub-header .logo img {
+            width: 56px;
+            height: 56px;
+        }
+
+        .sub-header .menu-list {
+            float: left;
+            height: 100px;
+            line-height: 100px;
+        }
+
+        .sub-header .menu-list a {
+            padding: 0 20px;
+            color: #333;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .sub-header .menu-list a:hover {
+            color: #ff6670;
+        }
+
+        .sub-header .search {
+            float: right;
+            height: 100px;
+        }
+
+
+        .app {
+            position: relative
+        }
+
+        .app .download {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            left: -26px;
+            display: none;
+        }
+
+        .app:hover .download {
+            display: block;
+        }
+
+        .carousel_1 {
+            height: 200px;
+            width: 1220px;
+            margin: 0 auto;
+        }
+
+        .phone_list {
+
+            width: 1226px;
+            margin: 0 auto;
+
+
+        }
+
+        .phone {
+            color: white;
+            width: 280px;
+            height: 430px;
+            margin-left: 10px;
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .phone .p{
+            width: 240px;
+            height: 400px;
+            margin: 15px auto;
+
+        }
+        .phone .p img{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+
+        .phone .p a{
+            display: inline-block;
+            width: 240px;
+            height: 400px;
+        }
+
+        .phone .p a h5:hover{
+            color: #ff6670;
+        }
+
+                .shopping_car {
+            position: fixed;
+            bottom: 80px;
+            left: 1429px;
+            width: 84px;
+            height: 92px;
+            border: 1px solid #f5f5f5;
+        }
+
+        .shopping_car img {
+            width: 30px;
+            height: 30px;
+            margin: 26px 27px 3px;
+        }
+
+        .shopping_car_text {
+            margin: 0 21px 26px;
+            color: #757575;
+            font-size: 13px;
+            text-decoration: none;
+        }
+
+        .shopping_car a:hover{
+            color: #ff6670;
+        }
+
+        .container_1 a:hover{
+            text-decoration: none;
+        }
+    </style>
+
+
+    <link rel="stylesheet" href="/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/plugins/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+<div class="header">
+    <div class="container_1">
+        <div class="menu">
+            <a href="/home" style="margin-right: 20px">小米商城</a>
+            <a href="" class="app">下载app
+                <div class="download">
+                    <img src="/static/images/code.png" alt="">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="account">
+            <a href="/login">登录</a>
+            <a href="/register">注册</a>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+</div>
+<div class="sub-header">
+    <div class="container_1">
+
+        <div class="logo">
+            <!--a是行内标签，不能设置高度和宽度，但可以改为块级标签或者块级、行内结合标签-->
+            <a href="https://www.mi.com/about">
+                <img src="/static/images/logo_mi.png">
+            </a>
+        </div>
+
+        <div class="menu-list">
+            <a href="/phone">Xiaomi手机</a>
+            <a href="/tv">电视</a>
+            <a href="/computer">笔记本</a>
+            <a href="/pad">平板</a>
+        </div>
+        <div class="search"></div>
+        <div style="clear: both"></div>
+
+    </div>
+</div>
+
+<div style="width: 1512.8px; background-color: #f5f5f5; height: 800px">
+    <div class="phone_list clearfix">
+    <div class="phone f_left" >
+        <div class="p" style="background-color: white">
+            <a href="/Redmi_Pad_SE" style="text-decoration: none" >
+                <img src="/static/images/pad/pad1_1.png" alt="" >
+                <h5 class="title" style="text-align:center; color:#757575; ">Redmi Pad SE</h5>
+                <h4 class="title" style="text-align:center; color: #ff6700;">899元</h4>
+            </a>
+        </div>
+    </div>
+
+    <div class="phone f_left">
+        <div class="p" style="background-color: white">
+            <a href="/Xiaomi_Pad_6_Max_14" style="text-decoration: none">
+                <img src="/static/images/pad/pad2_1.png" alt="" >
+                <h5 class="title" style="text-align:center; color:#757575;">Xiaomi Pad 6 Max 14</h5>
+                <h4 class="title" style="text-align:center; color: #ff6700;;">3499元</h4>
+            </a>
+        </div>
+    </div>
+
+    <div class="phone f_left">
+        <div class="p" style="background-color: white">
+            <a href="/Xiaomi_Pad_6S_Pro_12" style="text-decoration: none">
+                <img src="/static/images/pad/pad3.png" alt="" >
+                <h5 class="title" style="text-align:center; color:#757575;">Xiaomi Pad 6S Pro 12.4</h5>
+                <h4 class="title" style="text-align:center; color: #ff6700;;">3299元</h4>
+            </a>
+        </div>
+    </div>
+
+    <div class="phone f_left">
+        <div class="p" style="background-color: white">
+            <a href="/Xiaomi_Pad_6_Pro" style="text-decoration: none">
+                <img src="/static/images/pad/pad4_1.png" alt="" >
+                <h5 class="title" style="text-align:center; color:#757575;">Xiaomi Pad 6 Pro</h5>
+                <h4 class="title" style="text-align:center; color: #ff6700;;">2299元</h4>
+            </a>
+        </div>
+    </div>
+
+
+</div>
+
+</div>
+
+<div class="shopping_car">
+        <img src="/static/images/shopping_car.png" alt="">
+        <a class="shopping_car_text">购物车</a>
+    </div>
+
+<script src="/static/js/jquery-3.7.1.min.js"></script>
+<script src="/static/plugins/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+
+<script>
+    $(function () {
+        $('.carousel').carousel({
+            interval: 2000
+        })
+    })
+</script>
+
+</body>
+</html>

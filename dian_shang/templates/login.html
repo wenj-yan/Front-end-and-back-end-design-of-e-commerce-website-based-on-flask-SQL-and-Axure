@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+
+    <style>
+
+        body {
+
+            margin: 0;
+            height: 793.71px;
+        }
+
+        .float_f {
+            float: left;
+        }
+
+        .float_r {
+            float: right;
+        }
+
+        .main_page {
+            width: 1137.8px;
+            height: 793.71px;
+            background-color: black;
+
+        }
+
+        .header {
+            height: 80px;
+
+        }
+
+        .menu {
+            height: 40px;
+            width: 1097.8px;
+            margin: 20px 20px;
+            color: #b0b0b0;
+            font-size: 24px;
+            font-weight: 500;
+
+        }
+
+        .menu a {
+
+            color: #b0b0b0;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .menu a:hover {
+            color: #ff6670;
+            text-decoration: none;
+        }
+
+        .login {
+            height: 562px;
+            width: 450px;
+            margin: 11px 343px;
+        }
+
+        .login_main {
+            width: 350px;
+            height: 487px;
+            margin: 37.5px 45px;
+        }
+
+        .login_name {
+            height: 41px;
+            color: #fff;
+            font-size: 24px;
+            text-align: center;
+            line-height: 41px;
+        }
+
+        .login_input {
+            height: 60px;
+            margin-top: 60px;
+        }
+
+
+    </style>
+
+    <link rel="stylesheet" href="/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/plugins/font-awesome-4.7.0/css/font-awesome.css">
+
+</head>
+<body>
+
+<div class="float_f clearfix">
+    <img src="/static/images/login.jpg" alt="" style="height: 793.71px; width: 375px">
+</div>
+
+
+<div class="float_f main_page clearfix">
+    <div class="header">
+        <div class="menu">
+
+            <img src="/static/images/logo_mi.png" alt="" style="width: 39.9px; height: 39.9px">
+            小米账号
+            <a href="/home" class="float_r">小米商城</a>
+        </div>
+    </div>
+
+
+    <div class="login">
+        <div class="login_main">
+            <div class="login_name">
+                登录
+            </div>
+            <form action="">
+                <div class="login_input">
+                    <input type="text" name="ID" placeholder="ID" style="height: 60px; width:350px; border-radius: 10px">
+                </div>
+
+                <div class="login_input">
+                    <input type="text" name="pwd" placeholder="密码" style="height: 60px; width:350px; border-radius: 10px">
+                </div>
+
+                <div class="login_input">
+                    <input type="submit" value="登录" style="height: 60px; width:350px; border-radius: 10px; background-color: #ff5c00;color: white;">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="/static/js/jquery-3.7.1.min.js"></script>
+<script src="/static/plugins/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
+</body>
+</html>
